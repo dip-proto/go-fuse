@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/fuse"
 )
 
 type loopbackDirStream struct {

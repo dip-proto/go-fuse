@@ -15,9 +15,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/fuse/nodefs"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
+	"github.com/dip-proto/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/fuse/nodefs"
+	"github.com/dip-proto/go-fuse/v2/internal/testutil"
 )
 
 // DataNode is a nodefs.Node that Reads static data.
@@ -194,7 +194,7 @@ func TestCacheControl(t *testing.T) {
 		// If we don't Mlock() first, the memory comparison triggers a page
 		// fault, which blocks the thread, and deadlocks the test reliably at
 		// GOMAXPROCS=1.
-		// Fixes https://github.com/hanwen/go-fuse/issues/261 .
+		// Fixes https://github.com/dip-proto/go-fuse/issues/261 .
 		xmlock(fmmap)
 		if string(fmmap) != dataOK {
 			t.Fatalf("%s: file mmap: got %q  ; want %q", subj, fmmap, dataOK)

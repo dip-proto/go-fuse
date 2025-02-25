@@ -1,26 +1,26 @@
 # Go-FUSE
 
-[![CI](https://github.com/hanwen/go-fuse/actions/workflows/ci.yml/badge.svg)](https://github.com/hanwen/go-fuse/actions/workflows/ci.yml)
-[![GoDoc](https://godoc.org/github.com/hanwen/go-fuse/v2/fs?status.svg)](https://godoc.org/github.com/hanwen/go-fuse/v2/fs)
+[![CI](https://github.com/dip-proto/go-fuse/actions/workflows/ci.yml/badge.svg)](https://github.com/dip-proto/go-fuse/actions/workflows/ci.yml)
+[![GoDoc](https://godoc.org/github.com/dip-proto/go-fuse/v2/fs?status.svg)](https://godoc.org/github.com/dip-proto/go-fuse/v2/fs)
 
 Go native bindings for the FUSE kernel module.
 
 You should import and use
-[github.com/hanwen/go-fuse/v2/fs](https://godoc.org/github.com/hanwen/go-fuse/v2/fs)
+[github.com/dip-proto/go-fuse/v2/fs](https://godoc.org/github.com/dip-proto/go-fuse/v2/fs)
 library.  It follows the wire protocol closely, but provides
 convenient abstractions for building both node and path based file
 systems
 
 Older, deprecated APIs are available at
-[github.com/hanwen/go-fuse/fuse/pathfs](https://godoc.org/github.com/hanwen/go-fuse/v2/fuse/pathfs)
+[github.com/dip-proto/go-fuse/fuse/pathfs](https://godoc.org/github.com/dip-proto/go-fuse/v2/fuse/pathfs)
 and
-[github.com/hanwen/go-fuse/fuse/nodefs](https://godoc.org/github.com/hanwen/go-fuse/v2/fuse/nodefs).
+[github.com/dip-proto/go-fuse/fuse/nodefs](https://godoc.org/github.com/dip-proto/go-fuse/v2/fuse/nodefs).
 
 ## Comparison with other FUSE libraries
 
 The FUSE library gained a new, cleaned-up API during a rewrite
 completed in 2019. Find extensive documentation
-[here](https://godoc.org/github.com/hanwen/go-fuse/v2/fs).
+[here](https://godoc.org/github.com/dip-proto/go-fuse/v2/fs).
 
 Further highlights of this library is
 
@@ -82,7 +82,7 @@ Go-FUSE works somewhat on OSX. Known limitations:
 ## Bugs
 
 Yes, probably.  Report them through
-https://github.com/hanwen/go-fuse/issues. Please include a debug trace
+https://github.com/dip-proto/go-fuse/issues. Please include a debug trace
 (set `fuse.MountOptions.Debug` to `true`).
 
 ## Disclaimer

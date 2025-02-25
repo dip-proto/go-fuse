@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
+	"github.com/dip-proto/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/internal/testutil"
 	"golang.org/x/sys/unix"
 )
 
@@ -221,7 +221,7 @@ func waitMount(mnt string) error {
 }
 
 // There is a hang that appears when enabling CAP_PARALLEL_DIROPS on Linux
-// 4.15.0: https://github.com/hanwen/go-fuse/issues/281
+// 4.15.0: https://github.com/dip-proto/go-fuse/issues/281
 // The hang was originally triggered by gvfs-udisks2-volume-monitor. This
 // test emulates what gvfs-udisks2-volume-monitor does.
 func TestParallelDiropsHang(t *testing.T) {

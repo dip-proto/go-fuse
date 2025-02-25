@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
-	"github.com/hanwen/go-fuse/v2/posixtest"
+	"github.com/dip-proto/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/internal/testutil"
+	"github.com/dip-proto/go-fuse/v2/posixtest"
 )
 
 type testCase struct {

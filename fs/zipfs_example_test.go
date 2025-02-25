@@ -17,8 +17,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/hanwen/go-fuse/v2/fs"
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/fs"
+	"github.com/dip-proto/go-fuse/v2/fuse"
 )
 
 // zipFile is a file read from a zip archive.

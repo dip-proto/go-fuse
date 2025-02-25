@@ -10,7 +10,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
+	"github.com/dip-proto/go-fuse/v2/internal/testutil"
 	"golang.org/x/sync/errgroup"
 )
 

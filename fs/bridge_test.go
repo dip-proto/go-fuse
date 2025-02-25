@@ -14,7 +14,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/fuse"
 )
 
 // TestBridgeReaddirPlusVirtualEntries looks at "." and ".." in the ReadDirPlus

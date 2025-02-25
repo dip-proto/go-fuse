@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/fuse/nodefs"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
+	"github.com/dip-proto/go-fuse/v2/fuse"
+	"github.com/dip-proto/go-fuse/v2/fuse/nodefs"
+	"github.com/dip-proto/go-fuse/v2/internal/testutil"
 )
 
 type ownerFs struct {
